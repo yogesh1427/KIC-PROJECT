@@ -1,0 +1,78 @@
+/* General Styling */
+body {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #5aabe1, #dd7cdd);
+    color: white;
+}
+
+/* Container */
+.container {
+    max-width: 650px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* Blog Form */
+.blog-form input,
+.blog-form textarea {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    color: white;
+    outline: none;
+}
+
+/* Buttons */
+button {
+    background: linear-gradient(to right, #ff7eb3, #ff758c);
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.2em;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #38ef7d, #11998e);
+}
+
+/* AI Section */
+.ai-section {
+    margin-top: 20px;
+    background: linear-gradient(to right, #ffcc00, #ff6f61);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Blog List */
+.blog-container {
+    margin-top: 20px;
+    background: linear-gradient(to right, #4285f4, #34a853);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 8px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1.1em;
+}

@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: white;
+}
+
+/* Container Styling */
+.container {
+    max-width: 650px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* Title */
+h1 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Input Section */
+.input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.input-section input,
+.input-section select {
+    padding: 12px;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    margin: 8px;
+    font-size: 1em;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+}
+
+/* Styling the dropdown */
+select {
+    cursor: pointer;
+}
+
+/* Buttons */
+button {
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #11998e, #38ef7d);
+}
+
+/* Summary Section */
+.summary {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Expense List */
+.expense-list-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.expense-list-container h2 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 8px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1.1em;
+}
+
+

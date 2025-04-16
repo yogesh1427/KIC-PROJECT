@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="BLOG.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📝 My Blog</h1>
+
+        <!-- Blog Post Form -->
+        <div class="blog-form">
+            <input type="text" id="title" placeholder="Blog Title" required>
+            <textarea id="content" placeholder="Write your blog here..." required></textarea>
+            <button onclick="addPost()">➕ Publish</button>
+        </div>
+
+        <!-- AI Suggested Feeds -->
+        <div class="ai-section">
+            <h2>🔮 AI-Suggested Articles</h2>
+            <ul id="suggested-articles"></ul>
+        </div>
+
+        <!-- Blog Posts -->
+        <div class="blog-container">
+            <h2>📖 Your Blogs</h2>
+            <ul id="blog-list"></ul>
+        </div>
+    </div>
+
+    <script src="BLOG.js"></script>
+</body>
+</html>
